@@ -434,7 +434,7 @@ body {
 
 
             <center>
-    <img src="{{url('/upload/'.$product->img_)}}" alt="Los Angeles" >
+               <img src="{{url('/upload/'.$product->img_)}}" alt="Los Angeles" >
             </center>
 
 

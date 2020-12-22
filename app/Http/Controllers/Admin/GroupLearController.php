@@ -76,7 +76,10 @@ class GroupLearController extends Controller
     public function show($id)
     {
 
-    $i = 0;      $menu = DB::table('menu_admin')->get();
+        $i = 0;      
+    
+        $menu = DB::table('menu_admin')->get();
+        
         $product = DB::table('product')
         ->where('id',$id)
         ->first();
